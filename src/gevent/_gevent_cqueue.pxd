@@ -75,7 +75,6 @@ cdef class ItemWaiter(Waiter):
     cdef readonly Queue queue
 
 
-@cython.final
 cdef class UnboundQueue(Queue):
     pass
 
